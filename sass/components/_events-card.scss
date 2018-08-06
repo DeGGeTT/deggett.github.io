@@ -1,0 +1,115 @@
+.events{
+    &__card{
+        border: 1px solid #dcd7d7;
+        margin: 0 0.1rem !important;
+        background-color: #ffffff;
+        box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+        margin-bottom: 2rem !important;
+    }
+
+    &-icon{
+        padding: 10px 10px 10px 0;
+    }
+
+    &__image-1{
+        height: 15rem;
+        background-image:url(../img/event1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__image-2{
+        height: 15rem;
+        background-image:url(../img/event2.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    &__image-3{
+        height: 15rem;
+        background-image:url(../img/exam1.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    &__image-4{
+        height: 15rem;
+        background-image:url(../img/exam2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__detail{
+        height: 15rem;
+        padding-top: 1rem;
+
+        &--heading{
+            margin: 0;
+            font-weight: 700;
+            color:#424370;
+            font-size: 1.2rem;
+        }
+        &--headin-secondary{
+            font-weight: 500;
+            color: #9e4039;
+        }
+        }
+        
+    
+
+    &__date{
+    color: white;
+    width: 25%;
+    height: 5rem;
+    text-align: center;
+    background-color: #424370;
+    &--month{
+        font-size: 1.5rem;
+    font-weight: 700;
+    color: #9e4039;
+    }
+    &--day{
+    font-weight: 700;
+    color: #ffffff;
+    }
+    }
+
+    &__book{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: transform(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    &--button{
+    background-color: #424370;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    padding: 0 15px 5px;
+    opacity: 0;
+}
+
+    }
+
+    
+    &__card:hover {
+        .events__book--button {
+            background-color: #424370;
+            cursor: pointer;
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            padding: 0 15px 5px;
+            opacity: 1; 
+            transition:  1s   ;
+            -webkit-transition:  1s   ;
+            -moz-transition:  1s   ;
+            -ms-transition:  1s   ;
+            -o-transition:  1s   ;
+            }
+    }
+}

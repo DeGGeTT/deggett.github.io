@@ -1,0 +1,57 @@
+.bootom-menu{
+    padding-bottom: 1rem;
+    & a{
+        text-decoration: none;
+        color: #424370;
+    }
+
+    & a:hover{
+        text-decoration: none;
+        color: #424370;
+    }
+    
+    &__logo-box{
+        padding-bottom: 1rem;
+    }
+    &__logo{
+        width: 25%;
+    }
+
+    &__heading{
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: serif;
+        cursor: pointer;
+
+    }
+
+ 
+
+    &__heading:link{
+        font-weight: 700;
+        color: #424370;
+        transition:1s ;
+        cursor: pointer;
+        -webkit-transition:1s ;
+        -moz-transition:1s ;
+        -ms-transition:1s ;
+        -o-transition:1s ;
+     }
+     
+     &__heading::after {
+         content: '';
+         display: block;
+         width: 0;
+         cursor: pointer;
+         height: 2px;
+         background: #424370;
+         transition: width .3s;
+     }
+     &__heading:hover::after {
+         width: 100%;
+         cursor: pointer;
+     }
+     
+    
+}

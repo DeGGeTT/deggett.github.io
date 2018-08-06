@@ -1,0 +1,15 @@
+.counter{
+    text-align: center;
+    position: relative;
+    &-value{
+        font-size: 2.5rem;
+        font-weight:700;
+        color: #ffffff;
+        padding-bottom: 1rem;
+    }
+
+    &-text{
+        color: #9e4039;
+        font-weight: 700;
+    }
+}
